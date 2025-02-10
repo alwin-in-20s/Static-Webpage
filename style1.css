@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: black;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.logo {
+    color: #ff7200;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+
+.menu ul li {
+    margin: 0 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.menu ul li a:hover {
+    color: #ff7200;
+}
+
+.search {
+    display: flex;
+}
+
+.srch {
+    padding: 8px;
+    border: 1px solid #ff7200;
+    border-right: none;
+    background: transparent;
+    color: white;
+    outline: none;
+}
+
+.btn {
+    padding: 8px 15px;
+    background: #ff7200;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background: white;
+    color: #ff7200;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    min-height: 80vh;
+    background: url('image.jpg') no-repeat center center/cover;
+}
+
+.content {
+    width: 50%;
+}
+
+.content h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.content span {
+    color: #ff7200;
+}
+
+.content p {
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+.cn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #ff7200;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.cn a {
+    text-decoration: none;
+    color: black;
+}
+
+.cn:hover {
+    background: white;
+}
+
+.form {
+    width: 300px;
+    padding: 30px;
+    background: rgba(0, 0, 0, 0.9);
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 50px;
+}
+
+.form h2 {
+    color: #ff7200;
+    margin-bottom: 20px;
+}
+
+.form input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ff7200;
+    background: transparent;
+    color: white;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+.btnn {
+    width: 100%;
+    padding: 10px;
+    background: #ff7200;
+    border: none;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 15px;
+}
+
+.btnn:hover {
+    background: white;
+    color: #ff7200;
+}
+
+.btnn a {
+    text-decoration: none;
+    color: black;
+}
+
+.link {
+    margin-top: 15px;
+}
+
+.link a {
+    color: #ff7200;
+    text-decoration: none;
+}
+
+.liw {
+    margin-top: 15px;
+}
+
+.icon-social {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.icon-social a {
+    color: white;
+    font-size: 24px;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.icon-social a:hover {
+    color: #ff7200;
+}
